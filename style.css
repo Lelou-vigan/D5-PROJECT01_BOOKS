@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.content__item h1{
+  font-size: 1.8em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}
+h2{
+  color: #fff;
+  font-weight: 600;
+  margin: 50px 20px 0 0;
+  font-size: 2.2em;
+}
+/* STYLE DE TA GROSSE BOITE */
+.content__all{
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  flex-direction: row;
+}
+/* STYLE DE TA PREMIER PETITE BOITE */
+.first{
+  width: 25%;
+  background: #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* STYLE DE TA BANDE BLANCHE*/
+.white{
+  background: #fff;
+  width: 15%;
+  height: 100%;
+}
+/* STYLE DE TA BANDE NOIRE*/
+.black{
+  background: #000;
+  width: 15%;
+  height: 100%;
+}
+
+.content__item{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content__item img, h1, .title__text{
+  width: 90%;
+  margin: 0 auto;
+}
+.content__item img{
+  margin-bottom: 25px;
+}
+
+.content__item p{
+  font-size: 0.9em;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 500;
+}
+
+.text__black{
+  color: #000;
+  text-decoration: none;
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+  transition: 0.5s;
+  float: right;
+  text-align: right;
+}
+.text__black:hover{
+  color: #fff;
+  -webkit-text-stroke: 1px black;
+}
+.text__white{
+  color: #fff;
+  text-decoration: none;
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+  transition: 0.5s;
+  float: right;
+  text-align: right;
+}
+.text__white:hover{
+  color: #000;
+  -webkit-text-stroke: 1px white;
+}
+.element{
+  position: relative;
+}
+.arrow{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 20px 50px 0;
+}
+
+/* PAGE CHAPITRE */
+.black__chapitre{
+  background: #000;
+  width: 100%;
+  height: 100%;
+  padding: 0 100px;
+}
+.title__white__chapter{
+  color: #fff;
+  margin-bottom: 25px;
+}
+.text__white__chapter{
+  color: #fff;
+}
+.arrow__chapter{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 20px 50px 0;
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+.arrow__chapter:hover{
+  margin-right: 30px;
+}
